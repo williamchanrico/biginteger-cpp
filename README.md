@@ -1,5 +1,8 @@
 # biginteger-cpp
-C++ Big Integer/Big Number class (coded with competitive programming problems in mind)
+
+Big integer class in c++ (coded with competitive programming problems in mind)
+
+## Prototypes
 
 ```c++
 BigInt(string x);
@@ -24,7 +27,7 @@ string convertToBase(int base);
 friend ostream &operator <<(ostream &os, const BigInt &x);
 ```
 
-## Usage
+## Example
 ### Compute ```num % mod``` in base 19
 ```c++
 int base = 19;
